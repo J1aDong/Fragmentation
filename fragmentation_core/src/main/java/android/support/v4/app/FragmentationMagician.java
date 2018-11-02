@@ -1,4 +1,4 @@
-package android.support.v4.app;
+package androidx.core.app;
 
 
 import android.util.SparseArray;
@@ -7,6 +7,10 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentManagerImpl;
 
 /**
  * http://stackoverflow.com/questions/23504790/android-multiple-fragment-transaction-ordering
